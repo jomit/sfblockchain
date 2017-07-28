@@ -1,2 +1,2 @@
-# sfblockchain
-Blockchain DApp on Service Fabric
+# Service Fabric and Blockchain
+Building Blockchain DApp on Service Fabric
