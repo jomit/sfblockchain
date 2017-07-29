@@ -5,7 +5,28 @@ VisualStudioVersion = 15.0.26430.6
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{A07B5EB6-E848-4116-A8D0-A826331D98C6}") = "SFDApp", "SFDApp\SFDApp.sfproj", "{06C7956C-7919-4478-84C4-E0E56DC0C6C8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ContractWebApp", "ContractWebApp\ContractWebApp.csproj", "{084ED7D2-1159-42F5-90DC-577C75D2FF0A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ContractWebApp", "ContractWebApp\ContractWebApp.csproj", "{084ED7D2-1159-42F5-90DC-577C75D2FF0A}"
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "Contracts", "..\..\BlockchainHack\SFDApp\Contracts\", "{B4587434-15E7-4591-9BE2-2030E97815B5}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_1977"
+		Debug.AspNetCompiler.PhysicalPath = "..\..\BlockchainHack\SFDApp\Contracts\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_1977\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_1977"
+		Release.AspNetCompiler.PhysicalPath = "..\..\BlockchainHack\SFDApp\Contracts\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_1977\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "1977"
+		SlnRelativePath = "..\..\BlockchainHack\SFDApp\Contracts\"
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -31,6 +52,14 @@ Global
 		{084ED7D2-1159-42F5-90DC-577C75D2FF0A}.Release|Any CPU.Build.0 = Release|Any CPU
 		{084ED7D2-1159-42F5-90DC-577C75D2FF0A}.Release|x64.ActiveCfg = Release|Any CPU
 		{084ED7D2-1159-42F5-90DC-577C75D2FF0A}.Release|x64.Build.0 = Release|Any CPU
+		{B4587434-15E7-4591-9BE2-2030E97815B5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B4587434-15E7-4591-9BE2-2030E97815B5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B4587434-15E7-4591-9BE2-2030E97815B5}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{B4587434-15E7-4591-9BE2-2030E97815B5}.Debug|x64.Build.0 = Debug|Any CPU
+		{B4587434-15E7-4591-9BE2-2030E97815B5}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{B4587434-15E7-4591-9BE2-2030E97815B5}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{B4587434-15E7-4591-9BE2-2030E97815B5}.Release|x64.ActiveCfg = Debug|Any CPU
+		{B4587434-15E7-4591-9BE2-2030E97815B5}.Release|x64.Build.0 = Debug|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

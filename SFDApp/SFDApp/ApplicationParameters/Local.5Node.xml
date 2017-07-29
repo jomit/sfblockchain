@@ -2,6 +2,5 @@
 <Application xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="fabric:/SFDApp" xmlns="http://schemas.microsoft.com/2011/01/fabric">
   <Parameters>
     <Parameter Name="ContractWebApp_InstanceCount" Value="1" />
-    <Parameter Name="ContractWebApp_InstanceCount" Value="1" />
   </Parameters>
 </Application>
