@@ -1,2 +1,6 @@
+
 # Service Fabric and Blockchain
-Building Blockchain DApp on Service Fabric
+
+Blog Post:
+
+https://blogs.msdn.microsoft.com/cloud_solution_architect/2017/07/29/building-blockchain-dapps-on-service-fabric/
